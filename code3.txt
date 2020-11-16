@@ -1,0 +1,16 @@
+git 기본 명령어
+git init
+ㄴ저장소의 생성(.git 폴더가 만들어짐)
+git add <filename>. git add -all
+ㄴ저장소에 파일 추가(staging area로 올라감)
+git commit -m "message"
+ㄴ저장소에 변경 내용 반영
+git config
+ㄴgit설정(사용자 정보 설정, 설정 확인 등)
+git status
+ㄴ저장소 상태 확인
+git diff
+ㄴ이전 버전과 비교해 다른 점 나타냄
+git log, git log --stat
+ㄴ로그 상태보기
+  각 파일 별 로그 상태 보기

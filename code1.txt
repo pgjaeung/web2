@@ -1,4 +1,22 @@
 웹개발
-git add *
-git add .
-git branch <branch_name>
+git clone
+ㄴ클라이언트 상에 아무것도 없을 때 서버의 프로젝트를 내려받는 명령어
+git remote, git remote -v
+ㄴ현재 프로젝트에 등록된 remote저장소의 이름과 url확인
+  clone하면 origin이라는 리모트 저장소가 자동으로 등록
+git remote add <name> <url>
+ㄴ기존 워킹 디렉토리에 새 리모트 저장소 추가
+git remote show
+ㄴ리모트 저장소의 이름 확인
+git remote rename <old> <new>
+ㄴ리모트 저장소의 이름을 변경
+git remote remove <name>
+ㄴ리모트 저장소를 삭제
+git push origin master
+ㄴ원격 저장소 master branch에 commit을 저장
+  리모트 저장소에 쓰기 권한이 있고, clone 하고 난 이후 아무도 원격 저장소에
+  push하지 않았을 때만 사용가능
+  clone 한 사람이 여러 명 있을 때, 다른 사람이 push 한 후에 push하려고 하면 push  할 수 없다.
+git fetch <remote>
+ㄴ이 명령은 로컬에는 없지만, 리모트 저장소에는 있는 데이터를 모두 가져옴
+  자동으로 merge하지는 않음

@@ -1,4 +1,16 @@
-웹개발II
-git push
-git commit -m "commit_name"
-
+branch 관련 명령
+git branch
+ㄴ현재 사용하고 있는 브랜치와 생성된 브랜치 목록을 화면에 출력
+git branch -v
+ㄴ브랜치마다 마지막 커밋 메시지 출력
+git branch <branch명>
+ㄴ<branch명>으로 branch생성
+git checkout <branch명>
+ㄴ<branch명>으로 branch 변경
+git checkout -b <branch명>
+ㄴ해당 브랜치를 생성하면서 checkout까지(브랜치변경)하는 명령
+git branch -d <branch명>, git branch -D <branch명>
+ㄴ브랜치 삭제(현재 브랜치가 아닌 것만 삭제 가능)
+git diff
+ㄴ충돌 시 충돌 내용 화면 출력
+git merge --absort
